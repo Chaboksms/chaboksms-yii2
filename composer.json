@@ -1,0 +1,28 @@
+{
+    "name": "chaboksms/yii2",
+    "description": "yii2 chaboksms integration",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","chaboksms","sms","api"],
+    "license": "MIT",
+    "homepage": "http://github.com/Chaboksms/chaboksms-yii2",
+    "version": "1.0.5",
+	"authors": [
+        {
+            "name" : "Chaboksms",
+            "email": "info@chaboksms.ir"
+        },
+        {
+            "name": "Zanyar Hasani",
+            "email": "hasanizanyar@gmail.com"
+        }
+    ],
+    "require": {
+        "chaboksms/php": "1.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chaboksms\\Yii2\\": "src/"
+        }
+    },
+    "minimum-stability" : "stable"
+}
